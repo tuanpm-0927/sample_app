@@ -1,13 +1,13 @@
 vi:
+  nameweb: "huong dan Ruby on Rails"
   static_pages:
     about:
-      nameweb: "huong dan Ruby on Rails"
       title: "About"
       namepage: "About"
       content: "%{link_tutorial} la mot %{link_book} and %{link_screen} day lap
         trinh web voi %{link_rails}. Day la mot vi du cho tutorial"
       book: "sach"
-      sreen: "cac video"
+      screen: "cac video"
       rails: "Ruby on Rails"
       tutorial: "Ruby on Rails tutorial"
     contact:
@@ -18,7 +18,6 @@ vi:
         Lien he voi tutorial ve app vi du tai %{link_contact}"
       contactpage: "contact page"
     help:
-      nameweb: "huong dan Ruby on Rails"
       title: "Tro giup"
       namepage: "Tro giup"
       content: "nhan lay tro giup Ruby on Rails Tutorial tai %{link_help}. Nhan
@@ -26,7 +25,6 @@ vi:
       helpsection: "Rails tutorial help section"
       tutorial: "Ruby on Rails tutorial"
     home:
-      nameweb: "huong dan Ruby on Rails"
       title: "Trang Chu"
       namepage: "Sample App"
       content: "Day la trang chu cua %{link_tutorial} sample application"
