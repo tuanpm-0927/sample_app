@@ -31,6 +31,18 @@
 
 en:
   nameweb: "Ruby on Rails Tutorial Sample App"
+  layouts:
+    header:
+      app: "sample app"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+    footer:
+      tutorial: "Ruby on Rails tutorial"
+      mchartl: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      new: "News"
   static_pages:
     about:
       title: "About"
@@ -58,5 +70,11 @@ en:
     home:
       title: "Home"
       namepage: "Sample App"
+      signup: "Sign up now!"
       content: "This is home page for the %{link_tutorial} sample application"
       tutorial: "Ruby on rails tutorial"
+  users:
+    new:
+      title: "Sign up"
+      namepage: "Sign up"
+      content: "This will be a signup page for new users."
