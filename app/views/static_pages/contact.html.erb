@@ -1,0 +1,8 @@
+<% provide(:title, t(".title")) %>
+<% provide(:nameweb, t(".nameweb")) %>
+
+<h1><%= t(".namepage") %></h1>
+<p>
+  <%= t(".content",link_contact: link_to(t(".contactpage"),
+    "https://www.railstutorial.org/contact")).html_safe %>
+</p>
