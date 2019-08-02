@@ -1,10 +1,8 @@
 <% provide(:title, t(".title")) %>
-<% provide(:nameweb, t(".nameweb")) %>
 
 <h1><%= t(".namepage") %></h1>
 <p>
-  <%= t(".content",link_help: link_to(t(".helpsection"),
-                    "https://www.railstutorial.org/help"),
-                  link_tutorial: link_to(t(".tutorial"),
-                    "https://www.railstutorial.org/book")).html_safe %>
+  <%= t(".content",
+    link_help: link_to(t(".helpsection"),"https://www.railstutorial.org/help"),
+    link_tutorial: link_to(t(".tutorial"),"https://www.railstutorial.org/book")).html_safe %>
 </p>

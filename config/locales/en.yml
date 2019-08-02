@@ -30,27 +30,25 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  nameweb: "Ruby on Rails Tutorial Sample App"
   static_pages:
     about:
-      nameweb: "Ruby on Rails Tutorial Sample App"
       title: "About"
       namepage: "About"
       content: "The %{link_tutorial} is a %{link_book} and %{link_screen} to
         teach web development with %{link_rails}. This is the sample application
         for the tutorial"
       book: "book"
-      sreen: "screencast series"
+      screen: "screencast series"
       rails: "Ruby on Rails"
       tutorial: "Ruby on Rails tutorial"
     contact:
-      nameweb: "Ruby on Rails Tutorial Sample App"
       title: "Contact"
       namepage: "Contact"
       content: "Contact the Ruby on Rails Tutorial about the sample app at the
         %{link_contact}"
       contactpage: "contact page"
     help:
-      nameweb: "Ruby on Rails Tutorial Sample App"
       title: "Help"
       namepage: "Help"
       content: "Get help on the Ruby on Rails Tutorial at the %{link_help}. To
@@ -58,7 +56,6 @@ en:
       helpsection: "Rails tutorial help section"
       tutorial: "Ruby on Rails tutorial"
     home:
-      nameweb: "Ruby on Rails Tutorial Sample App"
       title: "Home"
       namepage: "Sample App"
       content: "This is home page for the %{link_tutorial} sample application"
