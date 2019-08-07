@@ -6,6 +6,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      user: "Users"
+      account: "Account "
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
     footer:
       tutorial: "Ruby on Rails tutorial"
       mchartl: "Michael Hartl"
@@ -58,3 +63,13 @@ en:
   shared:
     error_messages:
       content: "The form contains %{count_error}"
+  sessions:
+    create:
+      error: "Invalid email/password combination"
+    new:
+      title: "Log in"
+      namepage: "Log in"
+      email : "email"
+      password : "password"
+      submit: "Log in"
+      signupnow: "Sign up now!"
