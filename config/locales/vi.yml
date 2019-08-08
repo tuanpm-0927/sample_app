@@ -1,31 +1,106 @@
 vi:
-  nameweb: "huong dan Ruby on Rails"
+  layouts:
+    application:
+      nameweb: "Ruby on Rails Tutorial Sample App"
+    header:
+      app: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      user: "Cá nhân"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      setting: "Settings"
+      logout: "Đăng xuất"
+    footer:
+      tutorial: "Ruby on Rails tutorial"
+      mchartl: "Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      new: "Tin tức"
   static_pages:
     about:
-      title: "About"
+      title: "Về chúng tối"
       namepage: "About"
-      content: "%{link_tutorial} la mot %{link_book} and %{link_screen} day lap
-        trinh web voi %{link_rails}. Day la mot vi du cho tutorial"
-      book: "sach"
-      screen: "cac video"
+      content: "%{link_tutorial} là một %{link_book} và %{link_screen} để
+        dạy lập trình web với %{link_rails}. đây là 1  ứng dụng cho tutorial"
+      book: "sách"
+      screen: "video hướng dẫn"
       rails: "Ruby on Rails"
       tutorial: "Ruby on Rails tutorial"
     contact:
-      nameweb: "huong dan Ruby on Rails"
-      title: "Lien he"
-      namepage: "Lien he"
-      content: "
-        Lien he voi tutorial ve app vi du tai %{link_contact}"
-      contactpage: "contact page"
+      title: "Liên hệ"
+      namepage: "Liên hệ"
+      content: "Liên hệ với Ruby on Rails Tutorial Về sample app tại
+        %{link_contact}"
+      contactpage: "Trang liên hệ"
     help:
-      title: "Tro giup"
-      namepage: "Tro giup"
-      content: "nhan lay tro giup Ruby on Rails Tutorial tai %{link_help}. Nhan
-        tro giup ve sample app, xem trong sach %{link_tutorial}."
+      title: "Trợ giúp"
+      namepage: "Trợ giúp"
+      content: "Nhận giúp đỡ về Ruby on Rails Tutorial tại %{link_help}. Mọi
+        thắc mắc về sample app, xem tại %{link_tutorial}"
       helpsection: "Rails tutorial help section"
       tutorial: "Ruby on Rails tutorial"
     home:
-      title: "Trang Chu"
+      title: "Trang chủ"
       namepage: "Sample App"
-      content: "Day la trang chu cua %{link_tutorial} sample application"
+      signup: "Đăng nhập ngay!"
+      content: "Đây là trang chủ của %{link_tutorial} sample application"
       tutorial: "Ruby on rails tutorial"
+  users:
+    new:
+      title: "Đăng kí"
+      namepage: "Đăng kí"
+      name : "Tên"
+      email : "email"
+      password : "Mật khẩu"
+      password_confirmation: "Xác nhận mật khẩu"
+      btnsubmit : "Đăng kí"
+    create:
+      plash_success: "Chào mừng tới Sample App!"
+      check_mail: "Làm ơn check mail để xác nhận tài khoản."
+    show:
+      plash_danger: "Người dùng không tồn tại"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+    edit:
+      title: "Thay đổi người dùng"
+      namepage: "Thay đổi profile"
+      name : "Tên"
+      email : "email"
+      password : "Mật khẩu"
+      password_confirmation: "xác nhân mật khẩu"
+      btnsubmit : "Lưu thay đổi"
+      change: "Thay đổi"
+      plash_login: "Hãy đăng nhập."
+    index:
+      title: "Tất cả người dùng "
+      namepage: "All users"
+    destroy:
+      plash_deleted: "Đã xóa người dùng"
+      plash_error_delete: "không thể xóa người dùng"
+    update:
+      plash_updated: "Đã thay đổi thông tin"
+      plash_error_update: "Không thể thay đổi thông tin"
+  shared:
+    error_messages:
+      content: "Form có chứa %{count_error}"
+  sessions:
+    create:
+      error: "Sai tài khoản hoặc mật khẩu"
+      i: "1"
+      message: "Tài khỏan chưa xác nhận. Hãy kiểm tra link xác nhận của Bạn"
+    new:
+      title: "Đăng nhập"
+      namepage: "Đăng nhập"
+      email : "Email"
+      password : "Mật khẩu"
+      remember: "Ghi nhớ"
+      ckb_remember: "Ghi nhớ"
+      submit: "Đăng nhập"
+      cre_user: "Bạn là người mới? %{link_signup}"
+      signupnow: "Đăng kí ngay!"
+  account_activations:
+      activated: "Tài khoản đã được xác nhận!"
+      invalid: "link xác nhận không hợp lệ!"
