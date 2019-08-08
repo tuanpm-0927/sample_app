@@ -66,10 +66,16 @@ en:
   sessions:
     create:
       error: "Invalid email/password combination"
+      i: "1"
     new:
       title: "Log in"
       namepage: "Log in"
-      email : "email"
-      password : "password"
+      email : "Email"
+      password : "Password"
+      remember: "Remember me"
+      ckb_remember: "Remember me on this computer"
       submit: "Log in"
+      cre_user: "New user? %{link_signup}"
       signupnow: "Sign up now!"
+
+
