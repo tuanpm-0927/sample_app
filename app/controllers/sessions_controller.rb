@@ -6,7 +6,7 @@ class SessionsController < ApplicationController
     if user && user.authenticate(params[:session][:password])
       log_in user
       check_remember user
-      redirect_to user
+      redirect_back_or user
     else
       flash.now[:danger] = t ".error"
       render :new
@@ -16,13 +16,5 @@ class SessionsController < ApplicationController
   def destroy
     log_out if logged_in?
     redirect_to root_url
-  end
-
-  def check_remember user
-    if params[:session][:remember_me] == Settings.controller.one
-      remember(user)
-    else
-      forget(user)
-    end
   end
 end

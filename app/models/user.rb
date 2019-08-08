@@ -10,7 +10,7 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   has_secure_password
   validates :password, presence: true,
-    length: {minimum: Settings.validates.minimum_pass}
+    length: {minimum: Settings.validates.minimum_pass}, allow_nil: true
 
   def self.digest string
     cost = if ActiveModel::SecurePassword.min_cost
