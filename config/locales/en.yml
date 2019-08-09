@@ -60,6 +60,28 @@ en:
       plash_success: "Welcome to the Sample App!"
     show:
       plash_danger: "This user doesn't exist"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
+    edit:
+      title: "Edit user"
+      namepage: "Update your profile"
+      name : "name"
+      email : "email"
+      password : "password"
+      password_confirmation: "password confirmation"
+      btnsubmit : "Save changes"
+      change: "change"
+      plash_login: "Please log in."
+    index:
+      title: "All users"
+      namepage: "All users"
+    destroy:
+      plash_deleted: "User deleted"
+      plash_error_delete: "Can`t delete user, error"
+    update:
+      plash_updated: "Profile updated"
+      plash_error_update: "can`t update user, error"
   shared:
     error_messages:
       content: "The form contains %{count_error}"
@@ -77,5 +99,3 @@ en:
       submit: "Log in"
       cre_user: "New user? %{link_signup}"
       signupnow: "Sign up now!"
-
-

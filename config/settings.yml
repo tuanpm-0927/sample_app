@@ -4,5 +4,8 @@ validates:
   minimum_pass: 6
 helper:
   size: 80
-controller:
   one: "1"
+layout:
+  per_page: 10
+  user:
+    size: 50
