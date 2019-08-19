@@ -1,6 +1,7 @@
 en:
-  nameweb: "Ruby on Rails Tutorial Sample App"
   layouts:
+    application:
+      nameweb: "Ruby on Rails Tutorial Sample App"
     header:
       app: "sample app"
       home: "Home"
@@ -58,6 +59,7 @@ en:
       btnsubmit : "Create my account"
     create:
       plash_success: "Welcome to the Sample App!"
+      check_mail: "Please check your email to activate your account."
     show:
       plash_danger: "This user doesn't exist"
     user:
@@ -88,7 +90,7 @@ en:
   sessions:
     create:
       error: "Invalid email/password combination"
-      i: "1"
+      message: "Account not activated. Check your email for the activation link."
     new:
       title: "Log in"
       namepage: "Log in"
@@ -99,3 +101,12 @@ en:
       submit: "Log in"
       cre_user: "New user? %{link_signup}"
       signupnow: "Sign up now!"
+  account_activations:
+      activated: "Account activated!"
+      invalid: "Invalid activation link"
+  user_mailer:
+    account_activation:
+      title: "Sample app"
+      hi: "hi %{name}"
+      Welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
