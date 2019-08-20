@@ -4,6 +4,8 @@ class User < ApplicationRecord
   before_create :create_activation_digest
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
 
+  has_many :microposts, dependent: :destroy
+
   validates :name, presence: true,
     length: {maximum: Settings.validates.maximum_name}
   validates :email, presence: true,

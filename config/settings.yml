@@ -2,6 +2,7 @@ validates:
   maximum_name: 50
   maximum_email: 255
   minimum_pass: 6
+  maximum_content: 140
 helper:
   size: 80
   one: "1"
@@ -10,3 +11,6 @@ layout:
   user:
     size: 50
 time_expire: 2
+micropost:
+  img_size: 5
+  accept_img: "image/jpeg,image/gif,image/png"

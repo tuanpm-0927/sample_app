@@ -9,7 +9,10 @@ class UsersController < ApplicationController
       per_page: Settings.layout.per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.order_by.paginate page: params[:page],
+      per_page: Settings.layout.per_page
+  end
 
   def new
     @user = User.new
@@ -39,11 +42,11 @@ class UsersController < ApplicationController
   end
 
   def destroy
-    flash[:success] = if @user.destroy
-                        t ".plash_deleted"
-                      else
-                        t ".plash_error_delete"
-                      end
+    if @user.destroy
+      flash[:success] = ".plash_deleted"
+    else
+      flash[:danger] = t ".plash_error_delete"
+    end
     redirect_to users_url
   end
 
@@ -51,13 +54,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit :name, :email, :password,
       :password_confirmation
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".plash_login"
-    redirect_to login_url
   end
 
   def correct_user

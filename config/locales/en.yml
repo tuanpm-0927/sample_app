@@ -1,4 +1,5 @@
 en:
+  less_5mb: "should be less than 5MB"
   layouts:
     application:
       nameweb: "Ruby on Rails Tutorial Sample App"
@@ -48,6 +49,7 @@ en:
       signup: "Sign up now!"
       content: "This is home page for the %{link_tutorial} sample application"
       tutorial: "Ruby on rails tutorial"
+      feed: "Micropost Feed"
   users:
     new:
       title: "Sign up"
@@ -61,6 +63,7 @@ en:
       plash_success: "Welcome to the Sample App!"
       check_mail: "Please check your email to activate your account."
     show:
+      microposts: "Microposts (%{count})"
       plash_danger: "This user doesn't exist"
     user:
       delete: "delete"
@@ -85,6 +88,9 @@ en:
       plash_updated: "Profile updated"
       plash_error_update: "can`t update user, error"
   shared:
+    micropost_form:
+      compose: "Compose new micropost..."
+      submit: "Post"
     error_messages:
       content: "The form contains %{count_error}"
   sessions:
@@ -140,3 +146,14 @@ en:
     update:
       cant_empty: "can't be empty"
       pass_reset: "Password has been reset."
+  microposts:
+    micropost:
+      content: "Posted %{time} ago."
+      delete: "delete"
+    user_info:
+      profile: "view my profile"
+    create:
+      create_success: "Micropost created!"
+    destroy:
+      delete: "Micropost deleted"
+      error_delete: "Can`t delete, errors"
