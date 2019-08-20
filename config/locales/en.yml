@@ -96,6 +96,7 @@ en:
       namepage: "Log in"
       email : "Email"
       password : "Password"
+      forgot: "(forgot password)"
       remember: "Remember me"
       ckb_remember: "Remember me on this computer"
       submit: "Log in"
@@ -106,7 +107,36 @@ en:
       invalid: "Invalid activation link"
   user_mailer:
     account_activation:
-      title: "Sample app"
+      title: "Account activation"
       hi: "hi %{name}"
       Welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+      subject: "Account activation"
+    password_reset:
+      title: "Password reset"
+      link: "To reset your password click the link below:"
+      reset: "Reset password"
+      time: "This link will expire in two hours."
+      content: "If you did not request your password to be reset, please ignore this email and
+                your password will stay as it is."
+      subject: "Password reset"
+  password_resets:
+    new:
+      title: "Forget password"
+      namepage: "Forget password"
+      email: "email"
+      submit: "Submit"
+      plash_danger: "This user doesn't exist"
+    create:
+      email_reset: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      pass_expired: "Password reset has expired."
+    edit:
+      title: "reset password"
+      namepage: "reset password"
+      password: "Password"
+      confirmation: "Password confirmation"
+      submit: "Update password"
+    update:
+      cant_empty: "can't be empty"
+      pass_reset: "Password has been reset."
