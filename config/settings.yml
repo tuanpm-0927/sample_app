@@ -14,3 +14,4 @@ time_expire: 2
 micropost:
   img_size: 5
   accept_img: "image/jpeg,image/gif,image/png"
+small_size: 30
