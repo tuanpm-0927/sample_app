@@ -87,12 +87,26 @@ en:
     update:
       plash_updated: "Profile updated"
       plash_error_update: "can`t update user, error"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      profile: "view my profile"
+      micropost: "Microposts:"
   shared:
     micropost_form:
       compose: "Compose new micropost..."
       submit: "Post"
     error_messages:
       content: "The form contains %{count_error}"
+    stats:
+      follow: "following"
+      follower: "followers"
   sessions:
     create:
       error: "Invalid email/password combination"
